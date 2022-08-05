@@ -26,6 +26,7 @@ public class MapExamples {
 	public static void hashMapWithMapInterface() {
 		Map<Integer, String> mapCollection = new HashMap<>();
 		mapCollection.put(1, "avi");
+				mapCollection.put(1, "avi");
 		mapCollection.put(2, "sid");
 		mapCollection.putIfAbsent(3, "dru");
 
